@@ -46,7 +46,7 @@
       </button>
     </div>
     <div
-      class="grid grid-flow-row-dense lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 grid-rows-3 py-5 lg:w-9/12 w-11/12"
+      class="grid grid-flow-row-dense lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 grid-rows-3 py-5 lg:w-10/12 w-11/12"
     >
       <div
         class="rounded-lg shadow-lg transition duration-500 ease-in-out transform scale-95 hover:scale-100 bg-white"
@@ -64,7 +64,7 @@
             </p>
             <h3
               v-if="i.explicit_content_cover > 0"
-              class="my-1 text-sm truncate text-gray-700"
+              class="my-1 text-sm flex text-gray-700"
             >
               {{ $t('table.Tag') }}: {{ i.explicit_content_cover }}
             </h3>
