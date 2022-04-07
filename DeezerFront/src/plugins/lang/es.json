@@ -1,0 +1,15 @@
+{
+  "table": {
+    "Image": "Imagen",
+    "Version": "Version",
+    "Name": "Nombre",
+    "Tag": "Portada de contenido explícito"
+  },
+  "searchButton": "Buscar",
+  "search": "Buscar artista",
+  "title": "Deezer Musica",
+  "select": {
+    "spanish": "Español",
+    "english": "Ingles"
+  }
+}

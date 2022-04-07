@@ -1,0 +1,15 @@
+{
+  "table": {
+    "Image": "Image",
+    "Version": "Version",
+    "Name": "Name",
+    "Tag": "Explicit_content_cover"
+  },
+  "searchButton": "Search",
+  "search": "Search artist",
+  "title": "Deezer Music",
+  "select": {
+    "spanish": "Spanish",
+    "english": "English"
+  }
+}

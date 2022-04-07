@@ -1,0 +1,35 @@
+@tailwind base;
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+h4 {
+  @apply text-base;
+}
+h5 {
+  @apply text-sm;
+}
+h6 {
+  @apply text-xs;
+}
+
+@tailwind components;
+.td-table {
+  @apply sm:w-full md:w-full lg:w-14 lg:p-3 text-gray-800  text-center border border-b  block lg:table-cell relative lg:static;
+}
+.span-table {
+  @apply lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase;
+}
+
+@tailwind utilities;
+
+@layer components {
+  .router-link-active {
+    @apply text-white font-bold text-xl;
+  }
+}
